@@ -1,0 +1,6 @@
+{
+  "name": "FLAME BURGER",
+  "description": "FLAME BURGER - Ultimate Luxury Gourmet Burger Experience & Restaurant Ecosystem",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
