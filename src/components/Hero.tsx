@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Flame, Star, Award, Users, Play, ArrowRight, Sparkles, CheckCircle2 } from "lucide-react";
 import { motion } from "motion/react";
+import heroImg from "../assets/images/hero_burger_banner_1786047905126.jpg";
 
 interface HeroProps {
   onExploreMenu: () => void;
@@ -167,10 +168,13 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu, onOrderNow, onOpenAI 
               {/* Main Image Container */}
               <div className="relative rounded-lg overflow-hidden border border-[#1a1a1a] bg-[#0f0f0f] shadow-2xl">
                 <img
-                  src="/src/assets/images/hero_burger_banner_1786047905126.jpg"
+                  src={heroImg}
                   alt="The Ultimate Flame Burger"
                   className="w-full h-[460px] sm:h-[520px] object-cover transform group-hover:scale-105 transition duration-700 ease-out"
                   referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    (e.currentTarget as HTMLImageElement).src = "/images/hero_burger_banner_1786047905126.jpg";
+                  }}
                 />
 
                 {/* Overlay Vignette */}

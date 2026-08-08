@@ -1,4 +1,8 @@
 import { Product } from "../types";
+import heroImg from "../assets/images/hero_burger_banner_1786047905126.jpg";
+import smashImg from "../assets/images/best_seller_smash_1786047935192.jpg";
+import chickenImg from "../assets/images/chicken_deluxe_1786048083508.jpg";
+import loadedFriesImg from "../assets/images/loaded_fries_1786048098030.jpg";
 
 export const MENU_PRODUCTS: Product[] = [
   // PRIME BURGERS (5 Items)
@@ -12,7 +16,7 @@ export const MENU_PRODUCTS: Product[] = [
     oldPrice: 16.99,
     description: "Double flame-grilled Angus beef, aged cheddar, smoked beef bacon, caramelized onions & Flame signature sauce.",
     longDescription: "Our flagship signature burger featuring two 100% Angus beef patties flame-grilled over real charcoal, topped with double thick-cut aged cheddar, applewood smoked beef bacon, slow-caramelized red onions, crunchy pickles, and our proprietary secret Flame Glaze on a handcrafted brioche bun.",
-    image: "/src/assets/images/hero_burger_banner_1786047905126.jpg",
+    image: heroImg,
     rating: 4.9,
     reviewCount: 1420,
     calories: 880,
@@ -136,7 +140,7 @@ export const MENU_PRODUCTS: Product[] = [
     oldPrice: 13.99,
     description: "Triple smashed crispy Angus patties, triple American cheese, dill pickles & mustard house glaze.",
     longDescription: "Three Angus beef balls smashed razor-thin on a 500°F flat top until deep caramelized lacework crust forms, layered with melted American cheese, diced white onions, crunch pickles, and tangy brown mustard.",
-    image: "/src/assets/images/best_seller_smash_1786047935192.jpg",
+    image: smashImg,
     rating: 4.9,
     reviewCount: 980,
     calories: 780,
@@ -255,7 +259,7 @@ export const MENU_PRODUCTS: Product[] = [
     oldPrice: 12.99,
     description: "Buttermilk marinated crispy chicken breast, habanero mayo, pepper jack cheese & crunchy slaw.",
     longDescription: "Whole fresh chicken breast soaked for 24 hours in herbs and spiced buttermilk, double hand-dredged for maximum crunch, crowned with melted pepper jack, habanero garlic mayo, and vinegar coleslaw on a buttery toasted bun.",
-    image: "/src/assets/images/chicken_deluxe_1786048083508.jpg",
+    image: chickenImg,
     rating: 4.8,
     reviewCount: 840,
     calories: 720,
@@ -581,7 +585,7 @@ export const MENU_PRODUCTS: Product[] = [
     oldPrice: 7.99,
     description: "Golden crispy skin-on fries topped with liquid warm cheddar, beef bacon crumble & green onions.",
     longDescription: "Thick-cut skin-on Russet potato fries dusted with Flame spice rub, drenched in hot cheddar sauce, sprinkled with crispy beef bacon crumbles, sliced jalapeños, and fresh chives.",
-    image: "/src/assets/images/loaded_fries_1786048098030.jpg",
+    image: loadedFriesImg,
     rating: 4.9,
     reviewCount: 1890,
     calories: 580,
